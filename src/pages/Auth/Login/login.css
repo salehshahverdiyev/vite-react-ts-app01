@@ -1,0 +1,40 @@
+
+#username {
+    position: absolute;
+    left: 680px;
+    border-radius: 5px;
+    border: 2px red solid;
+    font-family: 'Courier New', Courier, monospace;
+    outline: 0;
+    color:blue;
+    
+}
+
+#password {
+    position: absolute;
+    left: 680px;
+    top: 110px;
+    border-radius: 5px;
+    border: 2px red solid;
+    font-family: 'Courier New', Courier, monospace;
+    outline: 0;
+    color:blue;
+}
+
+::placeholder {
+    color: blue;
+}
+
+button {
+    position: absolute;
+    left: 740px;
+    top: 150px;
+    border-radius: 5px;
+    border: 2px red solid;
+    font-family: 'Courier New', Courier, monospace;
+    color:blue;
+}
+
+button:hover {
+    background-color:orange;
+}
