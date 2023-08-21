@@ -22,7 +22,7 @@ export const AdminLayout = () => {
 			<main>
 				<Outlet />
 			</main>
-			<footer>&copy; {new Date().getFullYear()}</footer>
+			
 		</>
 	);
 };
