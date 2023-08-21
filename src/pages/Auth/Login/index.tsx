@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { Role } from '../../../models';
+import "./login.css"
 
 interface LoginData {
 	username: string;
@@ -48,8 +49,8 @@ export const Login = () => {
 	return (
 		<div>
 			<form onSubmit={handleSubmit}>
-				<input name='username' type='text' placeholder='Username' />
-				<input name='password' type='password' placeholder='Password' />
+				<input id='username' name='username' type='text' placeholder='Username' />
+				<input id='password' name='password' type='password' placeholder='Password' />
 				<button type='submit'>Login</button>
 			</form>
 		</div>
