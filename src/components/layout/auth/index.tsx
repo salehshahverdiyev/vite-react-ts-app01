@@ -1,15 +1,16 @@
 import { Outlet } from 'react-router-dom';
+import "./auth.css"
 
 export const AuthLayout = () => {
 	return (
 		<>
 			<header>
-				<h1>this is auth layout</h1>
+				<h1>This is auth layout.</h1>
 			</header>
 			<main>
 				<Outlet />
 			</main>
-			<footer>&copy; {new Date().getFullYear()}</footer>
+			
 		</>
 	);
 };
