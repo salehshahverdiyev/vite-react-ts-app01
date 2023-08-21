@@ -22,7 +22,7 @@ export const MainLayout = () => {
 			<main>
 				<Outlet />
 			</main>
-			<footer>&copy; {new Date().getFullYear()}</footer>
+			
 		</>
 	);
 };
