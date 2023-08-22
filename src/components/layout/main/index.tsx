@@ -1,4 +1,5 @@
 import { Outlet, Link } from 'react-router-dom';
+import "./main.css"
 
 export const MainLayout = () => {
 	return (
@@ -7,13 +8,13 @@ export const MainLayout = () => {
 				<h1>this is main layout</h1>
 				<nav>
 					<ul>
-						<li>
+						<li  id='home'>
 							<Link to='/'>Home</Link>
 						</li>
-						<li>
+						<li id='about'>
 							<Link to='/about'>About</Link>
 						</li>
-						<li>
+						<li id='product'>
 							<Link to='/product'>Product</Link>
 						</li>
 					</ul>
