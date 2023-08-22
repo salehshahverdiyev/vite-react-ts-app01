@@ -1,0 +1,24 @@
+#home {
+    position: absolute;
+    top:65px ;
+    left:600px ;
+    background-color: orange;
+    width: max-content ;
+    
+}
+
+#about {
+    position: absolute;
+    top:65px ;
+    left: 740px ;
+    background-color: orange;
+    width: max-content ;
+}
+
+#product {
+    position: absolute;
+    top:65px ;
+    left:880px ;
+    background-color: orange;
+    width: max-content ;
+}
