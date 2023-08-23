@@ -22,7 +22,9 @@ export const MainLayout = () => {
 			</header>
 			<main>
 				<Outlet />
+				<button id='logout'>Log out</button>
 			</main>
+			
 			
 		</>
 	);
