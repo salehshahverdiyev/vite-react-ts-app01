@@ -22,3 +22,10 @@
     background-color: orange;
     width: max-content ;
 }
+
+#logout {
+    position: absolute;
+    top: 10px;
+    left: 1400px;
+    width: max-content;
+}
